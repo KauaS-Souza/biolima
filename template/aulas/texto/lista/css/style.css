@@ -1,0 +1,91 @@
+/* ------- Sintaxe --------
+
+selector{
+    propriedade:valor
+}
+
+*/
+
+    /* Nome da cor:
+   color:green; */
+
+   /* Código da cor
+   color: #9F0000; */
+
+   /* RGB
+   color: rgb(255, 0, 0); */
+
+   /* RGBA ---- Vai agrecentar a trasparencia.
+   color: rgba(221, 0, 0,0.71);*/
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: blue;
+}
+
+h3 {
+    color: purple;
+}
+
+p {
+    color: #000;
+
+    /*  Altera a família da fonte */
+    font-family:'Courier New', Courier, monospace;
+
+    /*  Altera o tamanho da fonte */
+    font-size: 50px;
+
+    /* Espessura da font */
+    font-weight: 600;
+
+    /* Distância da linha */
+    line-height: 65px;
+
+    /* Traformando textos */
+    text-transform: capitalize;
+}
+
+.box {
+    /* width: 200px;
+    height: 100px; */
+    background-color: blueviolet;
+    /* Espasamento interno */
+    /* Tendo mais valores vai comasar com em cima , direita , em baixo e esqueda */
+    padding:  5px 50px;
+    /* Primeiro Espesura, segunda tipo da linha e treceira cor da linha */
+    border: 5px dashed #000;
+    margin: 40px;
+}
+
+.box0 {
+    background-color: lightblue;
+    padding: 10px;
+    font-size: 50px;
+    font-weight: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 20px dotted #000 ;
+    color: gray;
+}
+
+.box1 {
+    background-color: #5cfe62;
+    color: #fff;
+    border: 5px solid #000;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px 20px;
+    color: #000;
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
